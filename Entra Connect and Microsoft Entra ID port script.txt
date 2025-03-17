@@ -1,0 +1,2 @@
+New-NetFirewallRule -DisplayName "Allow HTTP Port 80" -Protocol TCP -LocalPort 80 -Action Allow
+New-NetFirewallRule -DisplayName "Allow HTTPS Port 443" -Protocol TCP -LocalPort 443 -Action Allow
